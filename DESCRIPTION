@@ -1,0 +1,22 @@
+Package: cluster 
+Type: Package
+Title: several clustering algorithm(unsupervised classification) with rcpparmadillo
+Version: 1.0
+Date: 2022-01-08
+Author: RUC ISBD
+Maintainer: <cristinaobale@gmail.com>
+Description: ISODATA stands for Iterative Self-Organizing Data Analysis 
+              Techniques. This script includes an algorithm which 
+              automatically creates groups of data (clusters) by means of 
+              an iterative process. During the process, similar
+              clusters are merged and those with large standard deviations 
+              are split. 
+              The centroids of the clusters are randomly selected. Then,
+              the euclidean distance among the centroids and the SD of the 
+              euclidean distance among each point of the cluster and its 
+              centroid are calculated. These two parameters are used to 
+              establish if some conditions defined by the user are reached 
+              and, therefore, the process of clustering is finished.
+Imports: Rcpp (>= 1.0.7)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.2
