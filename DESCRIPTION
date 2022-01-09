@@ -1,10 +1,10 @@
-Package: cluster 
+Package: cluster with rcpparmadillo
 Type: Package
 Title: several clustering algorithm(unsupervised classification) with rcpparmadillo
 Version: 1.0
 Date: 2022-01-08
-Author: RUC ISBD
-Maintainer: <cristinaobale@gmail.com>
+Author:Wu Bo,Qian Tianyang,Zhao Yue,Chen Huayu 
+Maintainer:Chen Huayu<cristinaobale@gmail.com>
 Description: ISODATA stands for Iterative Self-Organizing Data Analysis 
               Techniques. This script includes an algorithm which 
               automatically creates groups of data (clusters) by means of 
